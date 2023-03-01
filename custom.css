@@ -1,0 +1,76 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+}
+.material-background {
+  background: #f5f5f5;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+  background-size: 50px 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blue-card {
+  background-color: hsl(223, 63%, 88%);
+  
+  height: 80vh;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  border-radius: 2%;
+  left: 10%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.white-card {
+  background-color: #f8f8f8;
+  height: 60vh;
+  width: 40vh;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.white-card:hover {
+  transform: scale(1.2);
+  animation-delay: 100ms;
+}
+
+.qr-code {
+  height: 60%;
+  width: 92%;
+  background-image: url('images/image-qr-code.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  border-radius: 15px;
+  margin-bottom: 0px;
+}
+
+.text {
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.sub-text {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  color: gray;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.card-inner {
+  padding: 30px;
+  border-radius: 10px;
+}
+
